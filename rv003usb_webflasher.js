@@ -31,7 +31,7 @@ SOFTWARE.
 */
 async function rv003usb_webflasher(uint8arraycontent, status_callback) {
 	const USB_VID = 0x1209
-	const USB_PID = 0xB003
+	const USB_PID = 0xB803
 	const FLASH_BASE = 0x08000000
 	const FLASH_SIZE = 16384 // Use 63488 for CH32V006 support
 	const SECTOR_SIZE = 64
